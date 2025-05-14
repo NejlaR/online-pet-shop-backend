@@ -22,5 +22,7 @@ class UserDAO {
         $stmt = $this->db->prepare("INSERT INTO users (full_name, username, email, password) VALUES (?, ?, ?, ?)");
         $stmt->execute([$full_name, $username, $email, $password]);
     }
+
+    // Milestone 3 test
 }
 ?>
